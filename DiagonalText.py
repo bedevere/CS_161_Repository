@@ -23,10 +23,10 @@ if COUNT < 2 or COUNT > length:
 for y in range(COUNT):
     for x in range(length):
         if x == count:
-            print(string[count], end= " ")
+            print(string[count], end= "")
             count += COUNT
         else:
-            print(".", end= " ")
+            print(".", end= "")
     loopcount += 1 #Increments loopcount by one each time the program loops.
     count = loopcount #Sets count to the value of loopcount. 
     print()
